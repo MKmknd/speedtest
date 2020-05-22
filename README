@@ -1,3 +1,10 @@
-
+## Abstract
 This is a docker file to execute speedtest-cli.
+
+## How to execute
+
+```
+$ docker build . -t speedtest:latest # build the docker file
+$ docker run --rm speedtest:latest
+```
 
